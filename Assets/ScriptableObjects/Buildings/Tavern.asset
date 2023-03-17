@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38b8be0800020f84a8142aec94d53791, type: 3}
+  m_Name: Tavern
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 1703792707813044656, guid: 717a07e61d4de324191e05c2f09a368e, type: 3}
+  icon: {fileID: -997516670, guid: ca8541121f26a0b4a8268c356c387c8c, type: 3}
+  objectName: Tavern
+  hp: 100
+  width: 4
+  height: 4
+  price: 75
+  trainableUnits:
+  - unitToTrain: {fileID: 11400000, guid: 2ef2d9ebf97e4dc4da8d01ea81a548af, type: 2}
+    cost: 5
+    time: 0
+  - unitToTrain: {fileID: 11400000, guid: 3217e4221adf2d84c8a0c0617e6c52bd, type: 2}
+    cost: 25
+    time: 0

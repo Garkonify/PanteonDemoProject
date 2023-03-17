@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9bfede1ee8b26b468e5e2567bc03fcf, type: 3}
+  m_Name: Guardian
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 1703792707813044656, guid: 633070f5608192b4b8f93b93cbb87c05, type: 3}
+  icon: {fileID: -891091310, guid: ca8541121f26a0b4a8268c356c387c8c, type: 3}
+  objectName: Guardian
+  hp: 75
+  width: 1
+  height: 1
+  moveSpeed: 1
+  damage: 5
+  attackRange: 11
+  attackSpeed: 1
