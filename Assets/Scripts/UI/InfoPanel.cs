@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
-using Unity.VisualScripting;
-using UnityEditor.Search;
 using System;
 
 public class InfoPanel : Singleton<InfoPanel>
